@@ -5,28 +5,28 @@ body {
   font-family: lato, sans-serif;
 }
 
-.aaa {
+.about-project {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.about-project img {
   width: 100%;
 }
 
-.aaa .more-inf {
+.about-project .more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa { 
+  .about-project { 
     text-align: center;
   }
 }
 
-.centered-main-page-element {
+.content-container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -38,7 +38,7 @@ body {
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.adding-task {
     display: flex;
 }
 
@@ -148,7 +148,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#tasks-done label {
   text-decoration: line-through
   color: #888;
 }
