@@ -21,9 +21,11 @@
 }
 
 @media (max-width:768px) {
+  
   .about-project { 
     text-align: center;
   }
+
 }
 
 .content-container {
@@ -135,7 +137,7 @@ input,button{
 }
 
 .entry-field {
-  width: 226px
+  width: 226px;
 }
 
 .delete .remove-img {
@@ -156,12 +158,12 @@ input,button{
 
 /* Edit Task */
 .tasks-list .task-list-item .entry-field {
-  display: none
+  display: none;
 }
 
 .tasks-list .edit-mode .entry-field {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .task-title {
