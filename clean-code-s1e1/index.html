@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Todo App</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+  <header class="about-project">
+
+    <img class="task-scheduling" src="./eisenhower-matrix.jpg" alt="The Eisenhower Matrix">
+    <a 
+    class="more-info" 
+    href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?
+    </a>
+
+  </header>
+
+  <main class="content-container">
+
+    <section>
+      <h3 class="title-section">Add Item</h3>
+      <div class="adding-task">
+        <input id="new-task" class="task entry-field" type="text">
+        <button class="click-button">Add</button>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="title-section">Todo</h3>
+
+      <ul class="tasks-list" id="tasks-unfinished">
+  
+        <li class="task-list-item">
+          <input class="check-item" type="checkbox">
+          <span class="task task-title">Pay Bills</span>
+          <input type="text" class="task entry-field">
+          <button class="click-button edit">Edit</button>
+          <button class="click-button delete">
+            <img class="remove-img" src="./remove.svg" alt="remove button img">
+          </button>
+        </li>
+  
+        <li class="task-list-item edit-mode">
+          <input class="check-item" type="checkbox">
+          <span class="task task-title">Go Shopping</span>
+          <input type="text" value="Go Shopping" class="task entry-field">
+          <button class="click-button edit">Save</button>
+          <button class="click-button delete">
+            <img class="remove-img" src="./remove.svg" alt="remove button img">
+          </button>
+        </li>
+  
+      </ul>
+    </section>
+
+    <section>
+      <h3 class="title-section">Completed</h3>
+
+      <ul class="tasks-list" id="tasks-done">
+  
+        <li class="task-list-item">
+          <input class="check-item" type="checkbox" checked>
+          <span class="task task-title completed-task">See the Doctor</span>
+          <input type="text" class="task entry-field">
+          <button class="click-button edit">Edit</button>
+          <button class="click-button delete">
+            <img class="remove-img" src="./remove.svg" alt="remove button img">
+          </button>
+        </li>
+  
+      </ul>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
