@@ -12,11 +12,13 @@
   text-align: right;
 }
 
-.about-project .task-scheduling {
+.about-project 
+.task-scheduling {
   width: 100%;
 }
 
-.about-project .more-info {
+.about-project 
+.more-info {
   font-family: fantasy, cursive;
 }
 
@@ -49,15 +51,18 @@
   padding: 0px;
 }
 
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
 
-li > * {
+li > 
+* {
   vertical-align: middle;
 }
 
-input,button{
+input,
+button {
   outline: none;
 }
 
@@ -125,7 +130,8 @@ input,button{
 
 
 
-.task-list-item > .check-item {
+.task-list-item > 
+.check-item {
   margin: 0 10px;
 }
 
@@ -140,13 +146,15 @@ input,button{
   width: 226px;
 }
 
-.delete .remove-img {
+.delete 
+.remove-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete .remove-img:hover {
+.delete 
+.remove-img:hover {
   transform: rotateZ(0);
 }
 
@@ -157,15 +165,20 @@ input,button{
 }
 
 /* Edit Task */
-.tasks-list .task-list-item .entry-field {
+.tasks-list 
+.task-list-item 
+.entry-field {
   display: none;
 }
 
-.tasks-list .edit-mode .entry-field {
+.tasks-list 
+.edit-mode 
+.entry-field {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .task-title {
+.edit-mode 
+.task-title {
   display: none;
 }
