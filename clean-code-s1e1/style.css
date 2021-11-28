@@ -1,4 +1,4 @@
-/* Basic Style */
+
 .home {
   background-color: #f8f8f8;
   color: #333;
@@ -80,7 +80,6 @@ button {
   color: #3a3a3a;
 }
 
-/* Heading */
 .title-section {
   color: #333;
   font-weight: 700;
@@ -108,7 +107,6 @@ button {
   color: #333;
 }
 
-/* New Task */
 .title-section {
   display: block;
   margin: 0 0 20px;
@@ -118,7 +116,6 @@ button {
   width: 318px;
 }
 
-/* Task list */
 .task-list-item {
   overflow: hidden;
   padding: 20px 0;
@@ -158,13 +155,11 @@ button {
   transform: rotateZ(0);
 }
 
-/* Completed */
 .completed-task {
   text-decoration: line-through;
   color: #888;
 }
 
-/* Edit Task */
 .tasks-list 
 .task-list-item 
 .entry-field {
